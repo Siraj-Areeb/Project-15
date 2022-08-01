@@ -11,12 +11,14 @@ body{
 
 header{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
 nav{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     margin-top: 30px;
@@ -29,6 +31,7 @@ nav>img{
 .nav-list{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     list-style-type: none;
     align-items: center;
     /* position: absolute;
@@ -52,6 +55,7 @@ li>img{
 .section1{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -103,6 +107,7 @@ li>img{
 .section2{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding-top: 100px;
     padding-bottom: 40px;
     margin-top: 100px;
@@ -113,6 +118,7 @@ li>img{
 .section2-upper{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 40px;
 }
@@ -127,6 +133,7 @@ li>img{
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
 }
@@ -174,12 +181,14 @@ li>img{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 40px;
 }
 
 .left{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     position: relative;
     left: 140px;
     bottom: 30px;
@@ -210,11 +219,13 @@ li>img{
 .right{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .right-upper{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .l-cards{
@@ -224,6 +235,7 @@ li>img{
     margin:30px 65px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     align-content: center;
     position: relative;
@@ -255,16 +267,19 @@ li>img{
 .right-lower{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .section3{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .section3-head{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 50px;
@@ -273,6 +288,7 @@ li>img{
 .head-right{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin-left: 100px;
 }
 
@@ -309,6 +325,7 @@ li>img{
 .section3-cards{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
     margin-left: 60px;
@@ -325,6 +342,7 @@ li>img{
 .s-cards-upper{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
@@ -333,6 +351,7 @@ li>img{
 .s-cards-lower{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -373,6 +392,7 @@ li>img{
 .section4{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color: #222222;
     align-items: center;
@@ -387,6 +407,7 @@ li>img{
 .section4-right{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding-right: 30px;
 }
 
@@ -425,6 +446,7 @@ li>img{
     color:#FFf;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 60px;
 }
@@ -437,6 +459,7 @@ li>img{
 footer{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background-color: #222222;
