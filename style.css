@@ -489,3 +489,12 @@ footer{
     transition: .5s background-color ease-in-out;
       
 }
+
+@media only screen and (max-width: 600px){
+
+    .section4{
+        width: 100vw;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
